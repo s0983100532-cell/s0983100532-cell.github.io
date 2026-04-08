@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>經典美劇回顧：花邊教主 Gossip Girl</title>
+
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+        }
+
+        /* ⭐ 封面圖（重點修改處） */
+        header {
+            position: relative;
+            height: 450px; /* 增加高度以完整顯示人物比例 */
+            background-image: url('index.jpg'); /* 已更新為您的檔案名稱 */
+            background-size: cover;
+            background-position: center 20%; /* 稍微向上對齊，確保人物臉部不被文字遮擋 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        /* 黑色遮罩讓文字更清楚 */
+        header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3); /* 降低透明度以突顯劇照色彩 */
+        }
+
+        header h1 {
+            position: relative;
+            font-size: 3.5em; /* 稍微放大標題 */
+            letter-spacing: 3px;
+            z-index: 1;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8); /* 增加陰影提升辨識度 */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .content-section {
+            background: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-left: 5px solid #000;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .info-table th, .info-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .info-table th {
+            background-color: #000;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>XOXO, Gossip Girl</h1>
+    </header>
+
+    <main>
+
+        <section class="content-section">
+            <h2>影集簡介</h2>
+            <p>
+                《花邊教主》（Gossip Girl）是一部改編自同名小說的美國青春劇情電視劇。
+                劇情以神秘且無所不知的部落格「Gossip Girl」作為旁白，
+                描述紐約上東區上流社會青少年的愛情、友情與權力鬥爭。
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>首播與發行歷史</h2>
+            <p>
+                本劇於 2007 年 9 月 18 日首播，由 CW 電視網播出，
+                並迅速成為當時最具代表性的青春影集之一。
+            </p>
+            <p>
+                受到 2007–2008 年編劇罷工影響，播出曾中斷，
+                最終仍順利完成第一季。
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>各季播映時間表</h2>
+
+            <table class="info-table">
+                <thead>
+                    <tr>
+                        <th>季度</th>
+                        <th>播出時間</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>第三季</td>
+                        <td>2009 年 9 月 14 日</td>
+                    </tr>
+                    <tr>
+                        <td>第四季</td>
+                        <td>2010 年 9 月</td>
+                    </tr>
+                    <tr>
+                        <td>第五季</td>
+                        <td>2011 年 9 月</td>
+                    </tr>
+                    <tr>
+                        <td>第六季（最終季）</td>
+                        <td>2012 年 9 月</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Gossip Girl Fan Blog. You know you love me.</p>
+    </footer>
+
+</body>
+</html>
